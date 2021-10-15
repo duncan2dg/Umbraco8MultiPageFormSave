@@ -1,0 +1,20 @@
+{
+  "id": "2c1c2aa7-1cea-4047-9f36-5bd3f13d64c9",
+  "name": "Send template email to duncan.turner2@phs.scot",
+  "form": "686b9287-d6f3-43ad-b550-c1d0136d469e",
+  "active": true,
+  "includeSensitiveData": "False",
+  "workflowTypeId": "17c61629-d984-4e86-b43b-a8407b3efea9",
+  "executesOn": "Submitted",
+  "settings": {
+    "RazorViewFilePath": "Forms/Emails/Example-Template.cshtml",
+    "Attachment": "",
+    "Email": "",
+    "CcEmail": "",
+    "BccEmail": "",
+    "SenderEmail": "",
+    "ReplyToEmail": "",
+    "Subject": "The Form '{form_name}' was submitted"
+  },
+  "sortOrder": 1
+}

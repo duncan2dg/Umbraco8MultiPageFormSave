@@ -1,0 +1,20 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<ContentModels.FormDemo>
+@using ContentModels = Umbraco.Web.PublishedModels;
+@{
+	Layout = "master.cshtml";
+}
+
+
+<section class="section">
+    <div class="container">
+
+        <div class="row">
+            
+            <div class="col-md-12">
+                <h2>Meine Demo ja</h2>
+                @Umbraco.RenderMacro("renderUmbracoForm", new {FormGuid="686b9287-d6f3-43ad-b550-c1d0136d469e", FormTheme="bootstrap3-horizontal", ExcludeScripts="0"})
+            </div>
+
+        </div>
+    </div>
+</section>

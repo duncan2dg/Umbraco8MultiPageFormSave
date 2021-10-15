@@ -1,0 +1,25 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+@{
+	Layout = "master.cshtml";
+}
+
+@* the fun starts here *@
+<section class="section section--themed section--header section--content-center-bottom">
+    <div class="section__hero-content">
+        <h1 class="no-air">An example MultiPage form</h1>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+
+        <div class="row">
+            
+            <div class="col-md-12">
+                <h2>Meine Demo ja</h2>
+                @Umbraco.RenderMacro("renderUmbracoForm", new {FormGuid="686b9287-d6f3-43ad-b550-c1d0136d469e", FormTheme="bootstrap3-horizontal", ExcludeScripts="0"})
+            </div>
+
+        </div>
+    </div>
+</section>
